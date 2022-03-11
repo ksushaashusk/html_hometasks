@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Форма регистрации</title>
+</head>
+<body>
+    <form action="#" method="post" name="registration-form" novalidate autocomplete="on">
+        <div>
+            <input type="email" placeholder="Email" autofocus required name="email">
+            <input type="password" placeholder="Пароль" required minlength="7" name="password">
+        </div>
+        <label>
+            Запомнить:
+            <input type="checkbox" checked name="remember" value="yes">
+        </label>
+
+        <label>Укажите Ваш возраст: <input type="number" required></label>
+        <label>Укажите Ваше имя: <input type="text"></label>
+        <label>Укажите Ваш номер телефона: <input type="number"></label>
+
+
+        <div>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        </div>
+
+    </form>
+
+</body>
+</html>
