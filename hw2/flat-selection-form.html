@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Заявка на подбор квартиры</title>
+</head>
+<body>
+
+    <form action="#" method="post" name="find-flat">
+
+        
+            <label for="district">Укажите район:</label>
+            <select id="district" type="text" name="district" required>
+                <option value="1">Невский</option>
+                <option value="2">Калининский</option>
+                <option value="3">Мурино</option>
+                <option value="4">Петроградская</option>
+                <option value="5">Парнас</option>
+            </select>
+
+        <label for="room-quantity">Выберите кол-во комнат:</label>
+        <select id="room-quantity" name="room-quant" mulitiple>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">Евро-2</option>
+            <option value="6">Евро-3</option>
+        </select>
+
+        <label for="construction-year">Выберите год сдачи дома:</label>
+        <select id="construction-year" name="constr-year">
+            <option value="1">1980-е</option>
+            <option value="2">2000-е</option>
+            <option value="3">2010-е</option>
+        </select>
+
+        <div>
+            <label for="max-cost">Укажите максимальную стоимость:</label>
+            <input id="max-cost" type="number" min="800000" max="8000000" name="max-cost" required>
+        </div>
+
+        <div>
+            <label for="space">Площадь, м2:</label>
+            <input id="space" type="number" max="200" name="space" required> <!-- нет: вводится максимальное значение -->
+        </div>
+
+
+        <fieldset>
+            <legend>Выберите наличие отделки</legend>
+            <label>
+                С отделкой
+                <input type="radio" name="category" value="with">
+            </label>
+            <label>
+                Без отделки
+                <input type="radio" name="category" value="without">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Выберите наличие террасы</legend>
+            <label>
+                С террасой
+                <input type="radio" name="category" value="with">
+            </label>
+            <label>
+                Без террасы
+                <input type="radio" name="category" value="without">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Выберите класс</legend>
+            <label>
+                Бизнесс-класс
+                <input type="radio" value="business">
+            </label>
+            <label>
+                Премиум
+                <input type="radio" value="premium">
+            </label>
+            <label>
+                Delux
+                <input type="radio" value="delux">
+            </label>
+        </fieldset>
+
+        <div>
+            <label for="floor">Укажите этаж</label>
+            <input id="floor" type="number" min="2" max="13" name="floor"> <!-- не уверена, правильно ли поняла задание: (пользователь должен иметь возможность выбрать варианты: от N до M, не первый, не последний)-->
+        </div>
+
+        <div>
+            <button type="submit">Отправить заявку</button>
+            <button type="reset">Очистить</button>
+        </div>
+
+
+
+
+
+    </form>
+
+</body>
+</html>
