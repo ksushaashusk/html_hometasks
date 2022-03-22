@@ -1,0 +1,43 @@
+﻿body {
+    display: block;
+    margin: 0;
+    padding-bottom: 5px;
+
+}
+
+
+
+.item2 {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.item {
+    margin: 0;
+    padding: 0;
+    background-color: #FFD54F;
+    height: 50px;
+}
+
+    .item li {
+        display: inline-block;
+
+       
+    }
+
+
+a {
+    display: block;
+    padding: 6px;
+    width: 80px;
+    color: #C62828;
+    text-decoration: none;
+}
+    
+
+
+
+
+
+

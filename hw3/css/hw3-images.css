@@ -1,0 +1,23 @@
+﻿h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Segoe UI;
+    background-color: #9575CD;
+    
+}
+div img {
+    height: 200px;
+    width: 100%;
+}
+
+p {
+    font-family: Segoe UI;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+

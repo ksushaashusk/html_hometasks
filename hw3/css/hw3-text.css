@@ -1,0 +1,29 @@
+﻿h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-change {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-change2 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+        }
+.text-change3 {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+
+div {
+font-family: Segoe UI;
+font-size: 30px;
+}
