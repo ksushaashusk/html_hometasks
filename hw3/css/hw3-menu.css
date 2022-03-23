@@ -6,7 +6,6 @@
 }
 
 
-
 .item2 {
     margin: 0;
     padding: 0;
@@ -14,6 +13,7 @@
 }
 
 .item {
+   
     margin: 0;
     padding: 0;
     background-color: #FFD54F;
@@ -22,7 +22,8 @@
 
     .item li {
         display: inline-block;
-
+        text-align: center;
+        
        
     }
 
@@ -34,7 +35,11 @@ a {
     color: #C62828;
     text-decoration: none;
 }
-    
+
+.item a:hover:after,
+.item a:focus:after {
+    width: 100%;
+}
 
 
 

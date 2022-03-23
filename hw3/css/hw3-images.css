@@ -20,4 +20,9 @@ a {
     font-weight: bold;
     color: black;
 }
-
+.image3 {
+    opacity: 0.3
+}
+.image4 {
+    opacity: 0.6;
+}

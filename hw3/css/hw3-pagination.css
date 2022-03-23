@@ -1,0 +1,20 @@
+﻿.pagination {
+    display: inline-block;
+}
+
+    .pagination a {
+        text-align: center;
+        text-decoration: none;
+        color: red;
+        float: left;
+        padding: 8px 16px;
+        border: 1px solid red;
+        margin: 0 4px;
+        border-radius: 5px;
+    }
+  
+
+  .pagination a:hover {
+        background-color: orange;
+        
+    }
