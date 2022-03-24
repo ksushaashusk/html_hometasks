@@ -1,33 +1,32 @@
 ﻿body {
-    display: block;
+    /*display: block; лишнее свойство*/
     margin: 0;
     padding-bottom: 5px;
 
 }
-
-
-.item2 {
-    margin: 0;
-    padding: 0;
-    display: none;
-}
-
+/* лучше сразу убрать отступы всему списку и пунктам */
 .item {
-   
     margin: 0;
     padding: 0;
     background-color: #FFD54F;
-    height: 50px;
+    /*height: 50px; если высоту задать пунктам, а не всему меню, рамка будет снизу*/
 }
-
-    .item li {
-        display: inline-block;
-        text-align: center;
-        
-       
-    }
-
-
+.item2 {
+    display: none;
+}
+/* высоту пунктам лучше задать с помощью padding */
+.item li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    /* всем пунктам задаем прозрачную рамку */
+    border-bottom: 3px solid transparent;
+}
+.item li:hover {
+    /* при наведении меняем цвет рамки */
+    border-color: #C62828;
+}
 a {
     display: block;
     padding: 6px;
@@ -35,14 +34,5 @@ a {
     color: #C62828;
     text-decoration: none;
 }
-
-.item a:hover:after,
-.item a:focus:after {
-    width: 100%;
-}
-
-
-
-
 
 

@@ -21,8 +21,13 @@ a {
     color: black;
 }
 .image3 {
-    opacity: 0.3
+    opacity: 0.3;
+    width:33%;
 }
 .image4 {
     opacity: 0.6;
+    width: 33%;
+}
+.image2 {
+    width: 33%;
 }

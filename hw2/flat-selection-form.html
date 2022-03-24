@@ -11,7 +11,7 @@
 
         
             <label for="district">Укажите район:</label>
-            <select id="district" type="text" name="district" required>
+            <select id="district" name="district" required>
                 <option value="1">Невский</option>
                 <option value="2">Калининский</option>
                 <option value="3">Мурино</option>
@@ -20,7 +20,7 @@
             </select>
 
         <label for="room-quantity">Выберите кол-во комнат:</label>
-        <select id="room-quantity" name="room-quant" mulitiple>
+        <select id="room-quantity" name="room-quant">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -51,11 +51,11 @@
             <legend>Выберите наличие отделки</legend>
             <label>
                 С отделкой
-                <input type="radio" name="category" value="with">
+                <input type="radio" name="category_decoration" value="with">
             </label>
             <label>
                 Без отделки
-                <input type="radio" name="category" value="without">
+                <input type="radio" name="category_decoration" value="without">
             </label>
         </fieldset>
 
@@ -63,11 +63,11 @@
             <legend>Выберите наличие террасы</legend>
             <label>
                 С террасой
-                <input type="radio" name="category" value="with">
+                <input type="radio" name="category_terrace" value="with">
             </label>
             <label>
                 Без террасы
-                <input type="radio" name="category" value="without">
+                <input type="radio" name="category_terrace" value="without">
             </label>
         </fieldset>
 
@@ -75,15 +75,15 @@
             <legend>Выберите класс</legend>
             <label>
                 Бизнесс-класс
-                <input type="radio" value="business">
+                <input type="radio" name="category_class1" value="business">
             </label>
             <label>
                 Премиум
-                <input type="radio" value="premium">
+                <input type="radio" name="category_class2" value="premium">
             </label>
             <label>
                 Delux
-                <input type="radio" value="delux">
+                <input type="radio" name="category_class3" value="delux">
             </label>
         </fieldset>
 

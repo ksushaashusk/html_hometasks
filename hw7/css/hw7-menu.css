@@ -1,0 +1,87 @@
+﻿body {
+    /*display: block; лишнее свойство*/
+    margin: 0;
+    padding-bottom: 5px;
+
+}
+/* лучше сразу убрать отступы всему списку и пунктам */
+.item {
+    margin: 0;
+    padding: 0;
+    background-color: #FFD54F;
+    /*height: 50px; если высоту задать пунктам, а не всему меню, рамка будет снизу*/
+}
+.item ul { 
+    display: none;
+    position: absolute;
+    top: 100%;
+
+}
+
+/* высоту пунктам лучше задать с помощью padding */
+    .item li {
+        margin: 0 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: inline-block;
+        text-align: center;
+        /* всем пунктам задаем прозрачную рамку */
+        border-bottom: 3px solid transparent;
+        position: relative;
+        
+    }
+.item li:hover {
+    /* при наведении меняем цвет рамки */
+    border-color: #C62828;
+}
+a {
+    font-family: Segoe UI;
+    font-size: 15px;
+    display: block;
+    padding: 6px;
+    width: 130px;
+    color: #C62828;
+    text-decoration: none;
+}
+
+.item li:hover ul {
+    display: block;
+    
+}
+
+.item ul li {
+    float: none;
+}
+.forma {
+    
+    box-sizing: border-box;
+    width: 500px;
+    height: auto;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: hidden;
+    background-color: lightcoral;
+    border-bottom: 2px solid white;
+    font-family: Segoe UI;
+    font-size: 15px;
+}
+
+div {
+    background-color: lightcoral;
+    padding: 10px 10px;
+    font-family: Segoe UI;
+    font-size: 15px;
+}
+
+button {
+    appearance: none;
+    
+}
+
+
+
