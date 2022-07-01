@@ -2,14 +2,14 @@
 
 <html lang="ru">
 <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/hw6-menu.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/hw7-menu.css">
     <title>Menu</title>
 </head>
 <body>
     
         <ul class="item">
-            <li сlass="item1"><a href="#">Пункт 1</a></li>
+            <li><a href="#">Пункт 1</a></li>
             <li>
                 <a href="#">Пункт 2</a>
                 <ul>
@@ -19,22 +19,20 @@
                 </ul>
             </li>
             <li><a href="#">Пункт 3</a></li>
-            <li><a href="#">Личный кабинет</a></li> <!-- надо сделать кнопкой? -->
+            <li><a href="#link">Личный кабинет</a></li> 
         </ul>
-    
-    <form name="forma" class="forma" method="post" action="" >
-
-        <div>
-            <input type="text" placeholder="Логин" name="login" required />
-            <input type="password" placeholder="Пароль" name="password" required>
- 
-            <label>
-                Запомнить
+        <div class="log" id="link">
+            <form class="form" method="post" action="" >
+                <a href="#" id="close">x</a>  
+                <input type="text" placeholder="Логин" name="login" required>
+                <input type="password" placeholder="Пароль" name="password" required>
                 <input id="checkbox" type="checkbox" checked name="remember" value="yes">
-            </label>
-            <button type="button">Войти</button>
+                <label for="checkbox">Запомнить</label>
+                <button type="button">Войти</button>
+            </form>
         </div>
         
-    </form>
+        
+    
 </body>
 </html>
